@@ -1,10 +1,177 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Calculadora">
+    tools:context=".Calculadora"
+    android:stretchColumns="*">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TableRow>
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"/>
+
+    </TableRow>
+
+    <TableRow android:padding="5dp">
+
+        <Button
+            android:id="@+id/btnDel"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:text="@string/borrar"
+            app:cornerRadius="0dp"
+            tools:ignore="ButtonStyle,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btnInv"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/inv"
+            app:cornerRadius="0dp"
+            tools:ignore="ButtonStyle,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btnDividir"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/div"
+            app:cornerRadius="0dp"
+            tools:ignore="ButtonStyle,RtlHardcoded" />
+    </TableRow>
+
+    <TableRow android:padding="5dp">
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/_7"
+            app:cornerRadius="0dp"
+            tools:ignore="ButtonStyle,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/_8"
+            app:cornerRadius="0dp"
+            tools:ignore="ButtonStyle,RtlHardcoded"  />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/_9"
+            app:cornerRadius="0dp"
+            tools:ignore="ButtonStyle,RtlHardcoded"  />
+
+        <Button
+            android:id="@+id/btnMult"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/x"
+            app:cornerRadius="0dp"
+            tools:ignore="ButtonStyle,RtlHardcoded" />
+
+    </TableRow>
+
+    <TableRow android:padding="5dp">
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/_4"
+            app:cornerRadius="0dp"
+            tools:ignore="ButtonStyle,RtlHardcoded"  />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/_5"
+            app:cornerRadius="0dp"
+            tools:ignore="ButtonStyle,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/_6"
+            app:cornerRadius="0dp"
+            tools:ignore="ButtonStyle,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btnResta"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/slash"
+            app:cornerRadius="0dp"
+            tools:ignore="ButtonStyle,RtlHardcoded" />
+
+    </TableRow>
+
+    <TableRow android:padding="5dp">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/_1"
+            app:cornerRadius="0dp"
+            tools:ignore="ButtonStyle,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/_2"
+            app:cornerRadius="0dp"
+            tools:ignore="ButtonStyle,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/_3"
+            app:cornerRadius="0dp"
+            tools:ignore="ButtonStyle,RtlHardcoded"  />
+
+        <Button
+            android:id="@+id/btnSum"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/plus"
+            app:cornerRadius="0dp"
+            tools:ignore="ButtonStyle,RtlHardcoded"  />
+
+    </TableRow>
+
+    <TableRow android:padding="5dp">
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:text="@string/_0"
+            app:cornerRadius="0dp"
+            tools:ignore="ButtonStyle,RtlHardcoded"  />
+
+        <Button
+            android:id="@+id/btnCalc"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/equals"
+            app:cornerRadius="0dp"
+            tools:ignore="ButtonStyle,RtlHardcoded" />
+
+    </TableRow>
+
+</TableLayout>
