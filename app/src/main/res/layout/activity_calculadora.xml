@@ -8,12 +8,19 @@
     tools:context=".Calculadora"
     android:stretchColumns="*">
 
-    <TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <TextView
-            android:layout_weight="1"
+            android:id="@+id/displayCalc"
             android:layout_width="wrap_content"
-            android:layout_height="300dp"/>
+            android:layout_height="300dp"
+            android:layout_weight="1"
+            android:gravity="bottom|center"
+            android:textAlignment="gravity"
+            android:textColor="#673AB7"
+            android:textSize="30sp" />
 
     </TableRow>
 

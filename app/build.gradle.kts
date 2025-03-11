@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.isg.suarezireneparcial2"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.isg.suarezireneparcial2"
