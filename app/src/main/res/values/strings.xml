@@ -24,4 +24,8 @@
     <string name="login">Login</string>
     <string name="contrase_a">Contraseña</string>
     <string name="usuario">Usuario</string>
+    <string name="mis_montanas_allcaps">MIS MONTAÑAS</string>
+    <string name="n_de_cimas_conquistadas_0">Nº de cimas conquistadas: 0</string>
+    <string name="nombre">Nombre</string>
+    <string name="altura_m">Altura (m)</string>
 </resources>

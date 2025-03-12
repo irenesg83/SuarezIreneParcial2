@@ -35,7 +35,7 @@ class Login : AppCompatActivity() {
                     // Login fallido
                     val builder = AlertDialog.Builder(this)
                     builder.setTitle("Error de Login")
-                        .setMessage("El usuario "+un+" con la contraseña "+pw+"no existe, o las credenciales son incorrectas.")
+                        .setMessage("El usuario "+un+" con la contraseña "+pw+" no existe, o las credenciales son incorrectas.")
                         .setPositiveButton("OK") { dialog, _ -> dialog.dismiss() }
                         .create()
                         .show()
